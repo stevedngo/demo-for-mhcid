@@ -15,16 +15,102 @@
     <style>
       h1 {
        font-family: 'Montserrat', sans-serif;
-       font-size: 300%;
+       font-size: 54px;
        color: #616161;
-       text-align: center;
-       padding: 100px 50px
        }
+
+       .hero {
+        padding: 100px 0px 100px 0px;
+       }
+
+       .cta {
+        margin: 24px 0px 24px 0px;
+        border-radius: 30px;
+        padding: 16px 100px;
+       }
+
+       .carddiv {
+        padding: 100px 0px 100px 0px;
+        width: auto;
+       }
+
+       .fourers {
+        border: 1px solid black;
+        background-color: #ECEFF1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }
+
+       .sixers {
+        border: 1px solid black;
+        background-color: #CFD8DC;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }
+
+       .twelvers {
+        border: 1px solid black;
+        background-color: #B0BEC5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }
+
+       .viz {
+        padding-bottom: 100px;
+       }
+
     </style>
   </head>
   <body>
-    <h1>Hi, my name is Steve Ngo and I'm a UX Designer.</h1>
-    <button type="button" class="btn btn-primary btn-lg">Hire Me</button>
+
+    <div class="container-fluid">
+      <div class="row hero">
+        <div class="col-md-6 offset-md-3">
+          <h1>Hi, my name is Steve Ngo and I'm a UX Designer.</h1>
+          <button type="button" class="btn btn-primary btn-lg cta">Hire Me</button>
+        </div>
+      </div>
+    </div>
+
+    <div="row">
+      <div class="col-12 viz">
+        <img src="http://i.imgur.com/T5EdXAr.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+
+
+    <div class="row text-center">
+      <div class="col-md-4 fourers">
+        4
+      </div>
+      <div class="col-md-4 fourers">
+        4
+      </div>
+      <div class="col-md-4 fourers">
+        4
+      </div>
+    </div>
+
+
+    <div class="row text-center">
+      <div class="col-lg-6 sixers">
+        6
+      </div>
+      <div class="col-lg-6 sixers">
+        6
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12 twelvers">
+        12
+      </div>
+    </div>
+
+
+
+
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
